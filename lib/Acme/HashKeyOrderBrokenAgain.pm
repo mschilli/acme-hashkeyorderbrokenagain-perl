@@ -6,7 +6,7 @@ use strict;
 use warnings;
 use Test::More;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub hash_key_order_reproducable {
     local $ENV{ PERL_PERTURB_KEYS } = "DETERMINISTIC";
